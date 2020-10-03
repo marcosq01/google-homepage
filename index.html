@@ -1,0 +1,242 @@
+
+<style>
+
+    html, body {
+   
+        font-family: arial, sans-serif;
+        color: #5f6368;
+    }
+
+    ul {
+
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    #navbar {
+        font-size: 13px;
+    }
+
+
+    #navbar a {
+        
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #navbar li {
+        text-align: center;   
+        padding: 18px 13px;
+    }
+
+    #navleft li {
+        float: left;
+    }
+
+    #navright li {
+        float: right;
+    }
+
+    #navright img {
+        position: relative;
+        bottom: 3px;
+        width: 20px;
+    }
+    
+    #navright button {
+        position: relative;
+        bottom: 5px;
+        padding: 6px 14px;
+        border-radius: 2px;
+        border-style: none;
+        color: white;
+        font-weight: bold;
+        background-color: #4285f4;
+
+        
+    }
+
+
+    #navright button:focus {
+        outline: solid;
+        outline-color: black;
+        outline-width: thin;
+    }
+
+    #google-logo {
+        margin: 0 auto;
+        padding-top: 148px;
+        width: 272px;
+    }
+
+    #search-field {
+        height: 44px;
+        width: 580px;
+        margin: 24px auto;
+        border-width: 1px;
+        border-color: rgb(206, 205, 205);
+        border-radius: 40px;
+        border-style: solid;
+ 
+        font: inherit;
+    }
+
+    #search-field:hover{
+        box-shadow: 0 0 2px;
+
+        
+    }
+
+    #lens {
+        position: relative;
+        left: 0px;
+        top: 3px;
+        margin-left: 16px;
+        width:16px;
+        height: auto;
+    }
+
+    #voice {
+        position: relative;
+        top: 5px;
+        right: 4px;
+        width: 35px;
+
+    }
+
+    #searchbar {
+        margin-left: 8px;
+        font: inherit;
+        color: inherit;
+        height: 100%;
+        width: 82%;
+        border: none;
+    }
+
+    #searchbar:focus {
+        outline: none;
+    }
+
+    .searchbtn {
+        
+        font: inherit;
+        font-size: 14px;
+        color: inherit;
+        padding: 8px 15px;
+        background-color:  rgb(238, 238, 238);
+        border: none;
+        margin: 0 6px;
+    }
+
+    .searchbtn:hover {
+        color: black;
+        outline: thin;
+        outline-color: rgb(185, 185, 185);
+        outline-style: solid;
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: center;        
+    }
+
+
+    form {
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+
+    #footerul { 
+        font-size: 15px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: #f2f2f2;
+        overflow: hidden;
+    }
+
+    li.left{
+        float: left;
+    }
+
+    li.right{
+        padding-left: 0px;
+        padding-right: 12px;
+        float: right;
+    }
+
+    footer a {
+        display: block;
+        text-decoration: none;
+        padding: 14px 16px;
+        color: inherit;
+        text-align: center;
+    }
+
+    
+
+</style>
+<head>
+    <nav id="navbar">
+        <ul id="navleft">
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+        </ul>
+        <ul id="navright">
+            <li><button>Sign in</button></li>
+            <li><img src="https://www.pngkey.com/png/detail/207-2070054_grid-menu-gallery-set-collection-android-interface-google.png" alt=""></li>
+            <li><a href="">Images</a></li>
+            <li><a href="">Gmail</a></li>
+        </ul>
+    </nav>
+</head>
+
+
+<body>
+    
+    
+    <div id="google-logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+    </div>
+
+    <form action="">
+
+        <div id="search-field">
+            <img id="lens" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png" alt="">
+            <input type="text" id="searchbar">
+            <img id="voice" src="https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg" alt="">
+        </div>
+        
+        <div id="buttons">
+            <button class="searchbtn">Google Search</button>
+            <button class="searchbtn">I'm Feeling Lucky</button>
+        </div>
+    </form>
+
+    <footer>
+        <ul id="footerul">
+            <li class="left"><a href="">Advertising</a></li>
+            <li class="left"><a href="">Business</a></li>
+            <li class="left"><a href="">How Search works</a></li>
+            <li class="right"><a href="">Settings</a></li>
+            <li class="right"><a href="">Terms</a></li>
+            <li class="right"><a href="">Privacy</a></li>
+        </ul>
+    </footer>
+    
+    
+</body>
+
+
+
